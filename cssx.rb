@@ -1,9 +1,3 @@
-#!/.rvm/rubies/ruby-1.9.3-p429/bin/ruby
-
-# gather all classes and id's from html document(s)
-# compare all classes to classes in css file(s); then compare all id's to id's in css files
-# copy matches of all class and id definitions to a new document and save as ".css"
-
 require "nokogiri"
 require "css_parser"
 
